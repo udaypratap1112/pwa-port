@@ -1,0 +1,48 @@
+:root {
+  --gfs: 1440;
+  --black: #000;
+  --olive: #2d312a;
+  --leaves: #a6a999;
+  --silk: #f6f2ef;
+  --lavender-blue: #a3adcb;
+  --midnight: #171717;
+
+}
+
+
+html,body{
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+overflow: hidden;
+scroll-behavior: smooth;
+}
+*{
+ margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  --bg-color: var(--silk);
+  --text-color: var(--olive);
+  --revert-bg: var(--olive);
+  --revert-color: var(--leaves);
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+  
+  body.dark{
+    --bg-color: var(--midnight);
+    --text-color: var(--leaves);
+    --revert-bg: var(--leaves);
+    --revert-color: var(--olive);
+    background: var(--bg-color);
+    color: var(--text-color);
+  
+  }
+
+  .logo span,.navLogo{
+  font-family: 'Times New Roman', Times, serif !important;
+  }
+
