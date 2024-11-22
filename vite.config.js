@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/pwa-port/',
   plugins: [react(), VitePWA({
     registerType: 'autoUpdate',
     injectRegister: false,
